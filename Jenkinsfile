@@ -1,3 +1,3 @@
 @Library('locus-common') _
 
-template.createReusablePipeline(someParam: "random")
+create_reusable_pipeline(someParam: "random")
