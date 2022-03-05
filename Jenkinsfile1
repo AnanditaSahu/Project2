@@ -7,10 +7,10 @@ pipeline{
             steps{
                 trial("Anandita Sahu")
                 script{
-                    calculator.add(20,10)
-                    calculator.sub(20,10)
-                    calculator.mul(20,10)
-                    calculator.div(20,10)
+                    calculator.add(templateParams.input1, params.input2)
+                    calculator.sub(templateParams.input1, params.input2)
+                    calculator.mul(templateParams.input1, params.input2)
+                    calculator.div(templateParams.input1, params.input2)
                 }
             }
         }
